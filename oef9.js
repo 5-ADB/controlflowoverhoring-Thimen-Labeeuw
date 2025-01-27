@@ -22,12 +22,11 @@
  */
 
 let startgetal = 4;
-const eindgetal = 15;
-const definitiveStartgetal = startgetal;
+const eindgetal = 3;
 
 do {
   console.log(
     `${startgetal} + ${startgetal} = ${startgetal + startgetal}`
   );
-  startgetal += definitiveStartgetal;
-} while (startgetal + startgetal < eindgetal);
+  startgetal += startgetal;
+} while (startgetal < eindgetal);

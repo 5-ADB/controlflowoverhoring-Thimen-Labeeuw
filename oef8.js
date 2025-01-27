@@ -1,3 +1,5 @@
+// correct
+
 /**
  * Op basis van een kerngetal (0 tot 10) (opgegeven in het programm) toon ik de tafel van 10 tot
  * aan dit getal

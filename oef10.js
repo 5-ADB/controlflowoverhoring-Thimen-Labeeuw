@@ -19,7 +19,7 @@
 
 let startgetal = 3;
 const eindgetal = 12;
-let uitkomst = 0;
+let uitkomst = startgetal;
 let i = 0;
 
 while (uitkomst < eindgetal) {
@@ -28,11 +28,9 @@ while (uitkomst < eindgetal) {
   console.log(uitkomst);
 }
 console.log(
-  `Het startgetal ${startgetal} werd ${
-    i - 1
-  } aantal keer verhoogt met 2`
+  `Het startgetal ${startgetal} werd ${i} aantal keer verhoogt met 2`
 );
-if ((i - 1) % 2 == 0) {
+if (i % 2 == 0) {
   console.log("het is een even aantal keer gebeurt");
 } else {
   console.log("het is een oneven aantal keer gebeurt");

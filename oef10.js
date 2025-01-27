@@ -17,19 +17,22 @@
  *
  */
 
-let startgetal = 2;
+let startgetal = 3;
 const eindgetal = 12;
+let uitkomst = 0;
 let i = 0;
 
-while (i < eindgetal) {
-  i += 2;
+while (uitkomst < eindgetal) {
+  i++;
+  uitkomst += 2;
+  console.log(uitkomst);
 }
 console.log(
   `Het startgetal ${startgetal} werd ${
-    (i - startgetal) / 2
+    i - 1
   } aantal keer verhoogt met 2`
 );
-if (((i - startgetal) / 2) % 2 == 0) {
+if ((i - 1) % 2 == 0) {
   console.log("het is een even aantal keer gebeurt");
 } else {
   console.log("het is een oneven aantal keer gebeurt");

@@ -19,3 +19,8 @@
 
 let startgetal = 2;
 const eindgetal = 12;
+let i;
+
+while (startgetal < eindgetal) {
+  startgetal += 2;
+}

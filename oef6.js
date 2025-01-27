@@ -5,3 +5,9 @@
  */
 
 let kleur;
+
+if (kleur == undefined) {
+  console.log("kleur is wit (default)");
+} else {
+  console.log(`kleur is ${kleur}`);
+}
